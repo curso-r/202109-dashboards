@@ -1,0 +1,131 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE
+)
+
+library(magrittr)
+
+main_repo <- "main-dashboards"
+turma <- "202109-dashboards"
+num_aula <- 1
+```
+
+## Referências do curso
+
+[Clique aqui](https://github.com/curso-r/main-dashboards/raw/master/material_do_curso.zip) para baixar o material do curso.
+
+- R for Data Science: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/) (em inglês) e [https://es.r4ds.hadley.nz/](https://es.r4ds.hadley.nz/) (em espanhol).
+
+- Nosso blog: [https://curso-r.com/blog/](https://curso-r.com/blog/)
+
+## Dúvidas
+
+Fora do horário de aula ou monitoria:
+
+- perguntas gerais sobre o curso deverão ser feitas no Classroom.
+
+- perguntas sobre R, principalmente as que envolverem código, deverão ser enviadas no [nosso fórum](https://discourse.curso-r.com/).
+
+## Slides
+
+```{r}
+knitr::kable(
+  tibble::tibble(
+    slide = CursoRutils:::list_github_files(main_repo, "slides/", "html"),
+    link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
+  ) %>% 
+    dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
+    dplyr::slice(1)
+)
+```
+
+
+## Scripts utilizados em aula
+
+### Parte teórica
+
+```{r}
+pasta <- "scripts/"
+knitr::kable(
+  tibble::tibble(
+    script = list.files(pasta, pattern = "R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
+  ) %>% 
+    dplyr::slice(1)
+)
+```
+
+### Parte prática
+
+```{r}
+pasta <- "pratica/"
+knitr::kable(
+  tibble::tibble(
+    script = list.files(pasta, pattern = "R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
+  )
+)
+```
+
+## Lição de casa
+
+```{r}
+readxl::read_excel("tab_exercicios.xlsx") %>%
+  dplyr::filter(extra == "nao", aula <= num_aula) %>% 
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url, -extra) %>%
+  knitr::kable(col.names = c("Aula", "Descrição"))
+```
+
+## Lição de casa extra &#x1f913;
+
+```{r}
+readxl::read_excel("tab_exercicios.xlsx") %>%
+  dplyr::filter(extra == "sim", aula <= num_aula) %>% 
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url, -extra) %>%
+  knitr::kable(col.names = c("Aula", "Descrição"))
+```
+
+## Material extra
+
+Referências extras comentadas nas aulas.
+
+```{r}
+readxl::read_excel("referencias_extras.xlsx") %>%
+  dplyr::filter(aula <= num_aula, tema != "Conversa/Dúvidas") %>% 
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url) %>%
+  dplyr::arrange(num_aula) %>% 
+  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
+```
+
+Materiais que comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o conteúdo da aula).
+
+```{r}
+readxl::read_excel("referencias_extras.xlsx") %>%
+  dplyr::filter(aula <= num_aula, tema == "Conversa/Dúvidas") %>% 
+  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
+  dplyr::select(-desc, -url) %>%
+  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
+```
+
+## Redes sociais da Curso-R
+
+Instagram: https://www.instagram.com/cursoo_r/
+
+Twitter: https://twitter.com/curso_r
+
+Instagram: https://www.youtube.com/c/CursoR6/featured
+
+Linkedin: https://www.linkedin.com/company/curso-r/
+
+Facebook: https://www.facebook.com/cursodeR

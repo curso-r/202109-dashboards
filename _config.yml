@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+logo: assets/logo.png
+title: Dashboards com R
+show_downloads: true
+link_material: "https://github.com/curso-r/main-dashboards/raw/master/material_do_curso.zip"
