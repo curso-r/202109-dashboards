@@ -43,7 +43,7 @@ knitr::kable(
     link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
   ) %>% 
     dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
-    dplyr::slice(1)
+    dplyr::slice(1:2)
 )
 ```
 

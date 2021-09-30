@@ -26,6 +26,7 @@ Fora do horário de aula ou monitoria:
 | slide                                | link                                                                           |
 |:-------------------------------------|:-------------------------------------------------------------------------------|
 | slides/01-introducao\_ao\_curso.html | <https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.html> |
+| slides/02-shiny-introducao.html      | <https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.html>    |
 
 ## Scripts utilizados em aula
 
