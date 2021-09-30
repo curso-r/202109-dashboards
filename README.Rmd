@@ -39,10 +39,14 @@ Fora do horário de aula ou monitoria:
 ```{r}
 knitr::kable(
   tibble::tibble(
-    slide = CursoRutils:::list_github_files(main_repo, "slides/", "html"),
-    link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
-  ) %>% 
+    slide = CursoRutils:::list_github_files(main_repo, "slides/", "html$"),
+    HTML = paste0("https://curso-r.github.io/", main_repo, "/", slide)
+  ) %>%
     dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
+    dplyr::mutate(
+      slide = stringr::str_remove_all(slide, "slides/|\\..*"),
+      PDF = stringr::str_replace(HTML, "html$", "pdf")
+    ) %>% 
     dplyr::slice(1:2)
 )
 ```
