@@ -30,15 +30,13 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-### Parte teórica
-
-| script | link |
-|:-------|:-----|
-
 ### Parte prática
 
-| script | link |
-|:-------|:-----|
+| script             | link                                                                     |
+|:-------------------|:-------------------------------------------------------------------------|
+| 01-ola-mundo.R     | <https://curso-r.github.io/202109-dashboards/pratica/01-ola-mundo.R>     |
+| 02-output.R        | <https://curso-r.github.io/202109-dashboards/pratica/02-output.R>        |
+| 031-output-input.R | <https://curso-r.github.io/202109-dashboards/pratica/031-output-input.R> |
 
 ## Lição de casa
 
