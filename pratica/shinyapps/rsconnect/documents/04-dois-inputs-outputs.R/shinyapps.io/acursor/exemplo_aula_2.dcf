@@ -1,0 +1,13 @@
+name: exemplo_aula_2
+title: exemplo_aula_2
+username:
+account: acursor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4795971
+bundleId: 5104222
+url: https://acursor.shinyapps.io/exemplo_aula_2/
+when: 1633388367.88404
+lastSyncTime: 1633388367.88404
+asMultiple: FALSE
+asStatic: FALSE

@@ -13,8 +13,10 @@ ui <- fluidPage(
 server <- function(input, output, session) {
   
   output$histograma <- renderPlot({
-    hist(mtcars[[input$variavel]])
+    hist(mtcars[[input$variavel]], main = titulo)
   })
+  
+  titulo <- "Meu histograma"
   
 }
 
