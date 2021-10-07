@@ -28,16 +28,21 @@ Fora do horário de aula ou monitoria:
 | 01-introducao\_ao\_curso | <https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.html> | <https://curso-r.github.io/main-dashboards/slides/01-introducao_ao_curso.pdf> |
 | 02-shiny-introducao      | <https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.html>    | <https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.pdf>    |
 | 03-reatividade-parte-1   | <https://curso-r.github.io/main-dashboards/slides/03-reatividade-parte-1.html> | <https://curso-r.github.io/main-dashboards/slides/03-reatividade-parte-1.pdf> |
+| 04-layouts               | <https://curso-r.github.io/main-dashboards/slides/04-layouts.html>             | <https://curso-r.github.io/main-dashboards/slides/04-layouts.pdf>             |
 
 ## Scripts utilizados em aula
 
 ### Parte prática
 
-| script             | link                                                                     |
-|:-------------------|:-------------------------------------------------------------------------|
-| 01-ola-mundo.R     | <https://curso-r.github.io/202109-dashboards/pratica/01-ola-mundo.R>     |
-| 02-output.R        | <https://curso-r.github.io/202109-dashboards/pratica/02-output.R>        |
-| 031-output-input.R | <https://curso-r.github.io/202109-dashboards/pratica/031-output-input.R> |
+| script                    | link                                                                            |
+|:--------------------------|:--------------------------------------------------------------------------------|
+| 01-ola-mundo.R            | <https://curso-r.github.io/202109-dashboards/pratica/01-ola-mundo.R>            |
+| 02-output.R               | <https://curso-r.github.io/202109-dashboards/pratica/02-output.R>               |
+| 03-output-input.R         | <https://curso-r.github.io/202109-dashboards/pratica/03-output-input.R>         |
+| 04-dois-inputs-outputs.R  | <https://curso-r.github.io/202109-dashboards/pratica/04-dois-inputs-outputs.R>  |
+| 05-amostra-sem-reactive.R | <https://curso-r.github.io/202109-dashboards/pratica/05-amostra-sem-reactive.R> |
+| 06-amostra-com-reactive.R | <https://curso-r.github.io/202109-dashboards/pratica/06-amostra-com-reactive.R> |
+| 07-disparo-reatividade.R  | <https://curso-r.github.io/202109-dashboards/pratica/07-disparo-reatividade.R>  |
 
 ## Lição de casa
 
