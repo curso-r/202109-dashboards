@@ -43,6 +43,9 @@ Fora do horário de aula ou monitoria:
 | 05-amostra-sem-reactive.R | <https://curso-r.github.io/202109-dashboards/pratica/05-amostra-sem-reactive.R> |
 | 06-amostra-com-reactive.R | <https://curso-r.github.io/202109-dashboards/pratica/06-amostra-com-reactive.R> |
 | 07-disparo-reatividade.R  | <https://curso-r.github.io/202109-dashboards/pratica/07-disparo-reatividade.R>  |
+| 08-eventReactive.R        | <https://curso-r.github.io/202109-dashboards/pratica/08-eventReactive.R>        |
+| 09-debug.R                | <https://curso-r.github.io/202109-dashboards/pratica/09-debug.R>                |
+| 10-dados.R                | <https://curso-r.github.io/202109-dashboards/pratica/10-dados.R>                |
 
 ## Lição de casa
 
