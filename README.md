@@ -54,26 +54,43 @@ Fora do horário de aula ou monitoria:
 
 ## Lição de casa
 
-| Aula | Descrição |
-|:-----|:----------|
+| script                       | link                                                                                  |
+|:-----------------------------|:--------------------------------------------------------------------------------------|
+| 010-meu-primeiro-app.R       | <https://curso-r.github.io/202109-dashboards/exercicios/010-meu-primeiro-app.R>       |
+| 011-mey-segundo-app.R        | <https://curso-r.github.io/202109-dashboards/exercicios/011-mey-segundo-app.R>        |
+| 020-inputs-outputs-credito.R | <https://curso-r.github.io/202109-dashboards/exercicios/020-inputs-outputs-credito.R> |
+| 021-inputs-outputs-pokemon.R | <https://curso-r.github.io/202109-dashboards/exercicios/021-inputs-outputs-pokemon.R> |
+| 022-inputs-outputs-ssp.R     | <https://curso-r.github.io/202109-dashboards/exercicios/022-inputs-outputs-ssp.R>     |
+| 030-sidebarLayout.R          | <https://curso-r.github.io/202109-dashboards/exercicios/030-sidebarLayout.R>          |
+| 031-navbarPage.R             | <https://curso-r.github.io/202109-dashboards/exercicios/031-navbarPage.R>             |
+| 050-ui-reativa-cetesb.R      | <https://curso-r.github.io/202109-dashboards/exercicios/050-ui-reativa-cetesb.R>      |
+| 051-ui-reativa-pokemon.R     | <https://curso-r.github.io/202109-dashboards/exercicios/051-ui-reativa-pokemon.R>     |
+| 052-ui-reativa-ssp.R         | <https://curso-r.github.io/202109-dashboards/exercicios/052-ui-reativa-ssp.R>         |
 
 ## Lição de casa extra 🤓
 
-| Aula | Descrição |
-|:-----|:----------|
+| script                       | link                                                                                  |
+|:-----------------------------|:--------------------------------------------------------------------------------------|
+| extra-010-input-output.R     | <https://curso-r.github.io/202109-dashboards/exercicios/extra-010-input-output.R>     |
+| extra-020-input-output.R     | <https://curso-r.github.io/202109-dashboards/exercicios/extra-020-input-output.R>     |
+| extra-021-selecao-multipla.R | <https://curso-r.github.io/202109-dashboards/exercicios/extra-021-selecao-multipla.R> |
+| extra-022-date-input.R       | <https://curso-r.github.io/202109-dashboards/exercicios/extra-022-date-input.R>       |
 
 ## Material extra
 
 Referências extras comentadas nas aulas.
 
-| Aula | Tema | Descrição |
-|:-----|:-----|:----------|
-
-Materiais que comentamos quando tiramos dúvidas (não necessariamente são
-relacionadas com o conteúdo da aula).
-
-| Aula | Tema | Descrição |
-|:-----|:-----|:----------|
+| Tema           | Descrição                                                                                         |
+|:---------------|:--------------------------------------------------------------------------------------------------|
+| Conteúdo extra | [Caixas de diálogo no Shiny](https://shiny.rstudio.com/articles/modal-dialogs.html)               |
+| Pacote         | [Pacote fresh](https://github.com/dreamRs/fresh)                                                  |
+| Vídeo          | [Vídeo: Shinydashboard, pacote fresh e CSS](https://www.youtube.com/watch?v=s9GKim52E4k)          |
+| Vídeo          | [Live sobre módulos](https://www.youtube.com/watch?v=xp5aMvwqEMY&ab_channel=Curso-R)              |
+| Pacote         | [Shiny loaders](https://github.com/daattali/shinycssloaders)                                      |
+| Livro          | [Engineering Shiny (livro)](https://engineering-shiny.org/)                                       |
+| Post           | [Environments no R](https://blog.curso-r.com/posts/2017-06-19-environments)                       |
+| Conteúdo extra | [Criando inputs customizados (avançado)](https://shiny.rstudio.com/articles/building-inputs.html) |
+| Conteúdo extra | [Fazendo Gauges (clicar em &lt;/&gt; Source Code)](https://gallery.shinyapps.io/cran-gauge/)      |
 
 ## Redes sociais da Curso-R
 

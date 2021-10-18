@@ -69,21 +69,27 @@ knitr::kable(
 ## Lição de casa
 
 ```{r}
-readxl::read_excel("tab_exercicios.xlsx") %>%
-  dplyr::filter(extra == "nao", aula <= num_aula) %>% 
-  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
-  dplyr::select(-desc, -url, -extra) %>%
-  knitr::kable(col.names = c("Aula", "Descrição"))
+pasta <- "exercicios/"
+knitr::kable(
+  tibble::tibble(
+    script = list.files(pasta, pattern = "^[0-9].*\\.R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
+  ) %>% 
+    dplyr::slice(1:10)
+) 
 ```
 
 ## Lição de casa extra &#x1f913;
 
 ```{r}
-readxl::read_excel("tab_exercicios.xlsx") %>%
-  dplyr::filter(extra == "sim", aula <= num_aula) %>% 
-  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
-  dplyr::select(-desc, -url, -extra) %>%
-  knitr::kable(col.names = c("Aula", "Descrição"))
+pasta <- "exercicios/"
+knitr::kable(
+  tibble::tibble(
+    script = list.files(pasta, pattern = "^extra.*\\.R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
+  ) %>% 
+    dplyr::slice(1:10)
+) 
 ```
 
 ## Material extra
@@ -92,22 +98,11 @@ Referências extras comentadas nas aulas.
 
 ```{r}
 readxl::read_excel("referencias_extras.xlsx") %>%
-  dplyr::filter(aula <= num_aula, tema != "Conversa/Dúvidas") %>% 
   dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
   dplyr::select(-desc, -url) %>%
-  dplyr::arrange(num_aula) %>% 
-  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
+  knitr::kable(col.names = c("Tema", "Descrição"))
 ```
 
-Materiais que comentamos quando tiramos dúvidas (não necessariamente são relacionadas com o conteúdo da aula).
-
-```{r}
-readxl::read_excel("referencias_extras.xlsx") %>%
-  dplyr::filter(aula <= num_aula, tema == "Conversa/Dúvidas") %>% 
-  dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
-  dplyr::select(-desc, -url) %>%
-  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
-```
 
 ## Redes sociais da Curso-R
 
