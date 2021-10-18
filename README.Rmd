@@ -88,7 +88,7 @@ knitr::kable(
     script = list.files(pasta, pattern = "^extra.*\\.R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:10)
+    dplyr::slice(1:11)
 ) 
 ```
 
