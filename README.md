@@ -29,6 +29,7 @@ Fora do horário de aula ou monitoria:
 | 02-shiny-introducao      | <https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.html>    | <https://curso-r.github.io/main-dashboards/slides/02-shiny-introducao.pdf>    |
 | 03-reatividade-parte-1   | <https://curso-r.github.io/main-dashboards/slides/03-reatividade-parte-1.html> | <https://curso-r.github.io/main-dashboards/slides/03-reatividade-parte-1.pdf> |
 | 04-layouts               | <https://curso-r.github.io/main-dashboards/slides/04-layouts.html>             | <https://curso-r.github.io/main-dashboards/slides/04-layouts.pdf>             |
+| 05-reatividade-parte-2   | <https://curso-r.github.io/main-dashboards/slides/05-reatividade-parte-2.html> | <https://curso-r.github.io/main-dashboards/slides/05-reatividade-parte-2.pdf> |
 
 ## Scripts utilizados em aula
 
