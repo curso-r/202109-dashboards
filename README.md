@@ -70,6 +70,7 @@ Fora do horário de aula ou monitoria:
 | 040-shinydashboard.R         | <https://curso-r.github.io/202109-dashboards/exercicios/040-shinydashboard.R>         |
 | 050-ui-reativa-cetesb.R      | <https://curso-r.github.io/202109-dashboards/exercicios/050-ui-reativa-cetesb.R>      |
 | 051-ui-reativa-pokemon.R     | <https://curso-r.github.io/202109-dashboards/exercicios/051-ui-reativa-pokemon.R>     |
+| 052-ui-reativa-ssp.R         | <https://curso-r.github.io/202109-dashboards/exercicios/052-ui-reativa-ssp.R>         |
 
 ## Lição de casa extra 🤓
 
