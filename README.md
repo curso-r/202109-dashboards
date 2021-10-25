@@ -31,6 +31,7 @@ Fora do horário de aula ou monitoria:
 | 04-layouts               | <https://curso-r.github.io/main-dashboards/slides/04-layouts.html>             | <https://curso-r.github.io/main-dashboards/slides/04-layouts.pdf>             |
 | 05-reatividade-parte-2   | <https://curso-r.github.io/main-dashboards/slides/05-reatividade-parte-2.html> | <https://curso-r.github.io/main-dashboards/slides/05-reatividade-parte-2.pdf> |
 | 06-htmlwidgets           | <https://curso-r.github.io/main-dashboards/slides/06-htmlwidgets.html>         | <https://curso-r.github.io/main-dashboards/slides/06-htmlwidgets.pdf>         |
+| 07-modulos               | <https://curso-r.github.io/main-dashboards/slides/07-modulos.html>             | <https://curso-r.github.io/main-dashboards/slides/07-modulos.pdf>             |
 
 ## Scripts utilizados em aula
 
