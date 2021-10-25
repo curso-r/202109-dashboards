@@ -15,7 +15,7 @@ library(magrittr)
 
 main_repo <- "main-dashboards"
 turma <- "202109-dashboards"
-num_aula <- 5
+num_aula <- 6
 ```
 
 ## Referências do curso
@@ -47,7 +47,7 @@ knitr::kable(
       slide = stringr::str_remove_all(slide, "slides/|\\..*"),
       PDF = stringr::str_replace(HTML, "html$", "pdf")
     ) %>% 
-    dplyr::slice(1:5)
+    dplyr::slice(1:6)
 )
 ```
 
@@ -75,7 +75,7 @@ knitr::kable(
     script = list.files(pasta, pattern = "^[0-9].*\\.R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:10)
+    dplyr::slice(1:13)
 ) 
 ```
 
