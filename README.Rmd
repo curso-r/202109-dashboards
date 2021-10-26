@@ -62,7 +62,19 @@ knitr::kable(
   tibble::tibble(
     script = list.files(pasta, pattern = "R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
-  )
+  ) |> 
+    tibble::add_row(
+      script = "Exemplo módulos 1",
+      link = "https://github.com/curso-r/202109-dashboards/tree/master/pratica/21-modulos-1"
+    ) |> 
+    tibble::add_row(
+      script = "Exemplo módulos 2",
+      link = "https://github.com/curso-r/202109-dashboards/tree/master/pratica/22-modulos-2"
+    ) |> 
+    tibble::add_row(
+      script = "Exemplo módulos 3",
+      link = "https://github.com/curso-r/202109-dashboards/tree/master/pratica/22-modulos-2/versao-completa-purrr"
+    )
 )
 ```
 
