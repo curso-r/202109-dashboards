@@ -17,7 +17,8 @@ ui <- fluidPage(
       selectInput(
         "pokemon",
         label = "Selecione um Pokemon",
-        choices = c("Carregando..." = "")
+        choices = c("Carregando..." = ""),
+        selectize = TRUE
       )
     ),
     mainPanel = mainPanel(
